@@ -6,6 +6,10 @@
   .flex_col_aic {
     @apply flex flex-col items-center;
   }
+
+  .flex_jcc_aic {
+    @apply flex justify-center items-center;
+  }
 }
 html,
 body {

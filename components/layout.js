@@ -2,12 +2,10 @@ import Topbar from "./topbar";
 
 function Layout({ children }) {
   return (
-    <html class="bg-slate-200">
-      <body>
-        <Topbar />
-        <main>{children}</main>
-      </body>
-    </html>
+    <div className="bg-slate-200">
+      <Topbar />
+      <main>{children}</main>
+    </div>
   );
 }
 

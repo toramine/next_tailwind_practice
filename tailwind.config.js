@@ -10,7 +10,11 @@ module.exports = {
     "./components/form.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        my_bg_image: "url('../public/assets/images/image2.jpg')",
+      },
+    },
   },
   plugins: [],
 };

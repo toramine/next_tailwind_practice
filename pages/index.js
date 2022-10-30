@@ -6,7 +6,7 @@ import Title from "../components/title";
 
 export default function Home() {
   return (
-    <div class="h-auto flex_col_aic">
+    <div className="h-auto w-full flex_col_aic">
       <Title />
       <Created />
       <Form />
