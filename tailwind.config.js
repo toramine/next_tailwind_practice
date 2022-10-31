@@ -8,6 +8,7 @@ module.exports = {
     "./components/title.{js,ts,jsx,tsx}",
     "./components/created.{js,ts,jsx,tsx}",
     "./components/form.{js,ts,jsx,tsx}",
+    "./components/card.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
