@@ -1,6 +1,5 @@
 import Card from "./card";
 import cards from "../public/assets/data/cards";
-import { useState } from "react";
 
 function Created() {
   const useCards = [];
@@ -10,7 +9,7 @@ function Created() {
     }
   });
   return (
-    <div className=" bg-white w-full h-[400px]">
+    <div className=" bg-white w-full ">
       <div className=" flex flex-wrap ">
         {useCards.map((card) => (
           <Card card={card} key={card.id} />

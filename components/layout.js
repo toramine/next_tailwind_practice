@@ -2,7 +2,7 @@ import Topbar from "./topbar";
 
 function Layout({ children }) {
   return (
-    <div className="bg-slate-200">
+    <div className="h-[2000px]">
       <Topbar />
       <main>{children}</main>
     </div>

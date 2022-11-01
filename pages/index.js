@@ -6,9 +6,11 @@ import Title from "../components/title";
 
 export default function Home() {
   return (
-    <div className="h-auto w-full flex_col_aic bg-blue-700">
+    <div className="h-auto w-full flex_col_aic bg-blue-100">
       <Title />
+      <div className="my-5 text-xl font-bold">使用言語</div>
       <Created />
+      <div className="my-5 text-xl font-bold">入力フォーム</div>
       <Form />
     </div>
   );

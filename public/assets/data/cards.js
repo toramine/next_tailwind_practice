@@ -30,7 +30,7 @@ const cards = [
   {
     id: "5",
     lang: "html",
-    framework: "",
+    framework: "HyperText Markup Language",
     used: true,
     state: "学習中",
   },
