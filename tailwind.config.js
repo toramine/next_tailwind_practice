@@ -10,11 +10,13 @@ module.exports = {
     "./components/created.{js,ts,jsx,tsx}",
     "./components/form.{js,ts,jsx,tsx}",
     "./components/card.{js,ts,jsx,tsx}",
+    "./components/bottom.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       backgroundImage: {
         my_bg_image: "url('../public/assets/images/image2.jpg')",
+        my_image: "url('../public/assets/images/image1.jpg')",
       },
     },
   },

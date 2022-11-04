@@ -9,16 +9,21 @@ function Profile() {
       <Head>
         <title>プロフィール</title>
       </Head>
-      <div className="m-12">
-        <div className="text-white text-3xl">学習中</div>
-        <div className=" flex flex-wrap ">
+      <div className="m-12 h-auto">
+        <div className="text-white text-3xl mb-8 underline decoration-blue-500">
+          製作者: toramine
+        </div>
+        <div className="text-white text-3xl mb-2 underline decoration-blue-500">
+          学習中
+        </div>
+        <div className=" flex flex-wrap mb-4">
           {cards.map((card) => (
             <Card card={card} key={card.id} />
           ))}
         </div>
         <Link href="/">
-          <div className="text-white inline text-3xl hover:underline decoration-white cursor-pointer">
-            index page link
+          <div className="text-white inline text-3xl underline decoration-blue-500 hover:decoration-white cursor-pointer">
+            Home link
           </div>
         </Link>
       </div>

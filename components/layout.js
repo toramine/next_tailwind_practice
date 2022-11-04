@@ -1,3 +1,4 @@
+import Bottom from "./bottom";
 import Topbar from "./topbar";
 
 function Layout({ children }) {
@@ -5,6 +6,7 @@ function Layout({ children }) {
     <div className="h-full">
       <Topbar />
       <main>{children}</main>
+      <Bottom />
     </div>
   );
 }

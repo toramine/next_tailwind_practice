@@ -35,7 +35,7 @@ function Topbar() {
         ) : (
           <div>
             <Link href="/">
-              <div className="mr-5 hover:underline decoration-white cursor-pointer">
+              <div className="flex-1 mr-5 hover:underline decoration-white cursor-pointer">
                 ホーム
               </div>
             </Link>

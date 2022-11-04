@@ -8,8 +8,8 @@ function Form() {
   };
 
   return (
-    <div className="bg-white w-[100%] h-[700px] flex_jcc_aic">
-      <div className="bg-sky-500 flex-1 flex_jcc_aic h-[500px] mx-3 rounded-3xl">
+    <div className="bg-white w-[100%] h-auto py-12 lg:flex_jcc_aic ">
+      <div className="bg-sky-500 lg:flex-1 flex_jcc_aic h-[500px] m-3 rounded-3xl">
         <div className="w-[80%]">
           <form className="flex_col_aic py-3" onSubmit={(e) => handleSubmit(e)}>
             <div className="mt-3 text-white text-3xl">username</div>
@@ -37,7 +37,7 @@ function Form() {
           </form>
         </div>
       </div>
-      <div className="bg-gray-100 flex-1 h-[500px] mx-3 rounded-3xl">image</div>
+      <div className=" bg-cover bg-my_image lg:flex-1 h-[500px] mx-3 rounded-3xl"></div>
     </div>
   );
 }
