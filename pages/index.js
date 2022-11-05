@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Created from "../components/created";
 import Form from "../components/form";
 import Title from "../components/title";
