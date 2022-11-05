@@ -8,6 +8,10 @@ export default function Home() {
     <>
       <Head>
         <title>ホーム</title>
+        <meta
+          name="description"
+          content="This is the index page created by practicing next.js and tailwindcss"
+        ></meta>
       </Head>
       <div className="h-auto w-full flex_col_aic bg-blue-100">
         <Title />

@@ -8,6 +8,10 @@ function Profile() {
     <>
       <Head>
         <title>プロフィール</title>
+        <meta
+          name="description"
+          content="This is the profile page created by practicing next.js and tailwindcss"
+        ></meta>
       </Head>
       <div className="m-12 h-auto">
         <div className="text-white text-3xl mb-8 underline decoration-blue-500">
